@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PersonasList</string>
+    <string name="titulo">APP PARA ADMINISTRAR PERSONAS</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnConsultar">Consultar registros</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnConTodo">Consultar todos los registros</string>
 </resources>
