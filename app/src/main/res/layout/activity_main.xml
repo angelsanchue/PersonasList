@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btnAgregar"
         android:textSize="15sp"
+        android:onClick="AgregarRegistro"
         android:id="@+id/btnagregar"/>
 
     <Button
@@ -33,5 +34,10 @@
         android:layout_height="wrap_content"
         android:text="@string/btnConTodo"
         android:textSize="15sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResultado"
+        android:hint="Nombre"/>
 
 </LinearLayout>
