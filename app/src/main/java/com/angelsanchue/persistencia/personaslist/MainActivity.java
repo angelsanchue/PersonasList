@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void AgregarRegistro (View view) {
         Persona persona1 = new Persona();
-        persona1.nombre = "Jorge";
+        persona1.nombre = "angelsanchue";
         persona1.edad = 20;
         persona1.genero="M";
         lista1.add(persona1);
         resultado = (EditText) findViewById(R.id.txtResultado);
-        resultado.setText(persona1.nombre);
+        resultado.setText(lista1.get(0).nombre);
 
 
     }
